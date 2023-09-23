@@ -5,7 +5,7 @@ import './Row.css'
 import Rows from '../Rows/Rows';
 
 
-const Row = ({title,fetchURL}) => {
+const Row = ({title, fetchURL}) => {
 
     const [movies,setMovies] = useState([]);
     useEffect(()=>{

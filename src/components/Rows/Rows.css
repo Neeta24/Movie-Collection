@@ -1,15 +1,17 @@
 .main__rows{
-    width: 168px;
+    width: 176px;
 height: 302px;
-
+border:2px solid black;
+margin:0 10px;
 
 }
 
 
 .row-poster{
-   max-height: 100px;
-    margin-right: 10px;
-    transition: transform 450ms;
+height: 235px;
+width: 176px;
+object-fit: cover;
+transition: transform 450ms;
 }
 .row-poster:hover{
     transform: scale(1.08);

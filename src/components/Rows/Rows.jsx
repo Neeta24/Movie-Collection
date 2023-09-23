@@ -2,6 +2,10 @@
 import React from 'react';
 import './Rows.css'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye, faHeart } from '@fortawesome/free-regular-svg-icons';
+import { faClover } from '@fortawesome/free-solid-svg-icons';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
 
 const Rows = ({item}) => {
     const{poster_path,release_date,vote_average,title,id} =item;
@@ -18,9 +22,20 @@ const Rows = ({item}) => {
           <div className='main__rows'>
         <img  className='row-poster'src={`https://image.tmdb.org/t/p/w500/${item?.backdrop_path}`} alt={title} />
              <div>
-             <p>{title}</p>
-             <p>{release_date}</p>
-             <p>{vote_average}</p>
+                <p className='rows-title'>{title}</p>
+                <span className='release-date'>{release_date}</span>
+             </div>
+             <div className='content'>
+                <div className='left-content'>
+                    
+                <img   src="/src/assets/image 5.png"  alt="" />
+             <p className='vote'>{vote_average}</p>
+                </div>
+                <div className='right-content'>
+                  <FontAwesomeIcon className='eye-icon' icon={faEye}></FontAwesomeIcon>
+                  <FontAwesomeIcon className='love-icon' icon={faHeart}></FontAwesomeIcon>
+                </div>
+             
              </div>
         </div>
         

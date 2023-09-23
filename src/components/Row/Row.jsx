@@ -17,8 +17,9 @@ axios.get(fetchURL).then((response)=>{
 
     console.log(movies)
     return (
-      <div>
-         <h2 className='title'>{title}</h2> 
+      <div className='top'>
+        <div>
+        <h2 className='title'>{title}</h2> 
        <div className='row-posters'>
           {movies.map((item)=>(
             <Rows key={item.id} item={item} title={title}></Rows>
@@ -27,6 +28,9 @@ axios.get(fetchURL).then((response)=>{
            
             )}
        </div>
+
+        </div>
+       
 
       </div>
     

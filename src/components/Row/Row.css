@@ -1,6 +1,13 @@
+.top{
+   
+}
+
 .title{
     display: flex;
     justify-content:left;
+    color: white;
+    font-size: 18px;
+    font-family: Montserrat;
  }
  .row-posters{
     

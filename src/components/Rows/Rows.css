@@ -1,6 +1,6 @@
 .main__rows{
     width: 176px;
-height: 302px;
+height: 315px;
 border:2px solid black;
 margin:0 10px;
 
@@ -15,4 +15,49 @@ transition: transform 450ms;
 }
 .row-poster:hover{
     transform: scale(1.08);
+}
+
+.rows-title{
+    width: 100%;
+    color:white;
+    font-size: 16px;
+    
+    margin:10px 0 0 0;
+}
+.release-date{
+    color:white;
+    font-size: 11px;
+  
+}
+.content{
+    display: flex;
+}
+
+.left-content{
+    display: flex;
+    align-items: center;
+    gap:5px;
+   
+}
+.left-content img{
+ 
+    width:28px;
+height:14px;
+}
+.vote{
+    
+    color: white;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+    gap:6px;
+   margin-left: 75px;
+}
+
+.eye-icon{
+    color: white;
+}
+.love-icon{
+    color: white;
 }

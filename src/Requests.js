@@ -6,3 +6,5 @@ const key = '38e61227f85671163c275f9bd95a8803'
  }
 
  export default requests;
+
+ 

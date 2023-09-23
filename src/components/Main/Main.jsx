@@ -4,6 +4,8 @@ import requests from '../../Requests';
 import axios from 'axios';
 
 import './Main.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -31,16 +33,16 @@ console.log(movie)
         <div className='details'>
             <h1>{movie?.original_title}</h1>
             <p className='overview'>{movie?.overview}</p>
-            <h3></h3>
+            <h3>GENRES</h3>
             <p><span></span></p>
             <div>
-            <button className='watch'>Watch</button>
-            <button className='mylist'>Mylist</button> 
+            <button className='watch'>Watch <span><FontAwesomeIcon icon={faPlay}></FontAwesomeIcon></span></button>
+            <button className='mylist'>Mylist <span><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon></span></button> 
             </div>
 
             <div className='overview-details'>
             <img src="/src/assets/image 5.png" alt="" />
-            
+            <p className='universal'>U/A</p>
             <p className='rating'>{movie?.vote_average}</p>
             <button className='count'>{movie?.vote_count}K</button>
             <p>{movie?.release_date}</p>

@@ -5,6 +5,7 @@ import './Row.css'
 import Rows from '../Rows/Rows';
 
 
+
 const Row = ({title, fetchURL}) => {
 
     const [movies,setMovies] = useState([]);
@@ -21,7 +22,7 @@ axios.get(fetchURL).then((response)=>{
        <div className='row-posters'>
           {movies.map((item)=>(
             <Rows key={item.id} item={item} title={title}></Rows>
-      
+            
             )
            
             )}

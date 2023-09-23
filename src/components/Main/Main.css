@@ -1,6 +1,6 @@
 .banner-image{
-    height:100vh;
-    background-size: cover;
+   height:100vh;
+   background-size: cover;
   background-position: center;
   border-radius: 2px;
  
@@ -68,13 +68,24 @@ border-width: 0;
  }
 
  .count{
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 2px;
+   width: 34px;
+height: 26px;
+border-radius: 5px;
+border: 1px solid;
+text-align: center;
+
 
  }
  .rating{
     color: #FFC907;
+
+ }
+ .universal{
+   width: 44px;
+height: 23px;
+border-radius: 5px;
+border: 1px solid;
+text-align: center;
 
  }
 

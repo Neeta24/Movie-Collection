@@ -2,9 +2,12 @@
     display:flex;
     background-image: linear-gradient(90deg, #000000 17.76%, rgba(0, 0, 0, 0.687449) 41.44%, rgba(196, 196, 196, 0) 100%);
 height:93px;
+width: 100%;
 position: absolute;
 top: 0;
 z-index: 99999999999;
+padding-left: 26px;
+
     
 }
 
@@ -13,12 +16,12 @@ z-index: 99999999999;
    width:180px;
    height:50px;
    background-repeat: no-repeat, no-repeat;
-   margin-top: 3%;
+   /* margin-top: 2%; */
 }
 
 .header-links{
     padding-left:60px;
-    margin-top: 3%;
+    /* margin-top: 3%; */
 }
 
 .link{
@@ -38,28 +41,58 @@ text-align: left;
     height: 37px;
     margin-left: 127px;
     border-radius: 18.5px;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     border-width:0px;
     opacity: 0.9;
     text-align: center;  
+    background: #3B567D;
+    color:  #A2B3CD;
+    ;
+
 }
-.header-left{
+.icon{
+   
+    border-radius: 18.5px;
+    margin-left: -30px;
+    border-width:0px;
+    opacity: 0.9; 
+    background: #3B567D;
+    color:  white; 
+}
+.left-header{
     display: flex;
-    margin-top: 2%;
+    margin-top: 2.5%;
 }
 
 .right-header{
     display: flex;
-    justify-content: right;
+    justify-content:right;
+    margin-top: 2%;
+    padding-left: 300px;
 }
 
 .profile{
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    background-color: white;
-    display:inline;
-    margin-top: 3%;
-    margin-left: 15px;
+    display: flex;
+    margin-top: 2%;
+    
+   
 }
+.gift{
+    margin-left: 55px;
+    color: white;
+}
+.bell{
+    margin-left: 40px;
+    color: white;
+}
+.profile-details{
+   
+    width: 40px;
+  height: 40px;
+border-radius: 140px;
+background-color: aliceblue;
+opacity: 0.8;
+margin-left: 45px;
+}
+
 

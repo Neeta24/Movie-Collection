@@ -14,8 +14,7 @@ const Rows = ({item}) => {
     }
     return (
         
-      
-        <Link to ={`./movie/${id}`} style={linkstyle}>
+        <Link to ={`../movie/${id}`} style={linkstyle}>
           <div className='main__rows'>
         <img  className='row-poster'src={`https://image.tmdb.org/t/p/w500/${item?.backdrop_path}`} alt={title} />
              <div>
@@ -25,12 +24,7 @@ const Rows = ({item}) => {
              </div>
         </div>
         
-        </Link>
-       
-        
-       
-
-       
+        </Link> 
        
     )
 };

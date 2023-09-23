@@ -2,12 +2,15 @@
 import React from 'react';
 import './Header.css'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBell, faGift, faSearch} from '@fortawesome/free-solid-svg-icons'
+
 
 
 const Header = () => {
     return (
         <div className='header'>
-           <div className='header-left'>
+           <div className='left-header'>
            <div className='Header-image'></div>
 
                <div className='header-links'>
@@ -19,10 +22,24 @@ const Header = () => {
            </div>
 
             <div className='right-header'>
-            <label>
-            <input className='searchbar' type="search" id="site-search" name="search" placeholder="Search"/>
-            </label>
-            <div className='profile'></div>
+            
+                
+            <form>
+            <input className='searchbar' type="search" id="site-search" name="search" placeholder="Search" />
+            <button className='icon'><FontAwesomeIcon icon={faSearch} /></button>
+            </form>
+            
+            
+
+            <div className='profile'>
+            <FontAwesomeIcon icon={faGift} className='gift'/>
+            <FontAwesomeIcon icon={faBell} className='bell'/>
+          
+            
+            </div>
+            <div className='profile-details' >
+                
+            </div>
             </div>
             
            

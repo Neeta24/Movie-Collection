@@ -41,7 +41,7 @@ console.log(movie)
             </div>
 
             <div className='overview-details'>
-            <img src="/src/assets/image 5.png" alt="" />
+            <img src="image 5.png" alt="" />
             <p className='universal'>U/A</p>
             <p className='rating'>{movie?.vote_average}</p>
             <button className='count'>{movie?.vote_count}K</button>

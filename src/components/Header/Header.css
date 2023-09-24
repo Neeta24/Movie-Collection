@@ -12,7 +12,7 @@ padding-left: 26px;
 }
 
 .Header-image {
-    background-image: url("./src/assets/DRAMATIC.png");
+    background-image: url("DRAMATIC.png");
    width:180px;
    height:50px;
    background-repeat: no-repeat, no-repeat;

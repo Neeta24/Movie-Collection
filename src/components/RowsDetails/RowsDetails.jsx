@@ -38,7 +38,7 @@ const{genres,original_title,backdrop_path,overview,vote_average,vote_count,relea
               </div>
   
               <div className='overview-details'>
-              <img src="/src/assets/image 5.png" alt="" />
+              <img src="image 5.png" alt="imdb" />
               <p className='universal'>U/A</p>
               <p className='rating'>{vote_average}</p>
               <button className='count'>{vote_count}K</button>

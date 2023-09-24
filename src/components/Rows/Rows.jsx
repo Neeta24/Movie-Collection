@@ -28,7 +28,7 @@ const Rows = ({item }) => {
              <div className='content'>
                 <div className='left-content'>
                     
-                <img   src="/src/assets/image 5.png"  alt="" />
+                <img   src="image 5.png"  alt="" />
              <p className='vote'>{vote_average}</p>
                 </div>
                 <div className='right-content'>

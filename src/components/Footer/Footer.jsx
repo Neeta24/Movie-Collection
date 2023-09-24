@@ -3,11 +3,16 @@ import React from 'react';
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe,faChevronDown  } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
-        <div className='footer-bar'>
-            <div></div>
+        <div >
+            <div className='footer-bar'>
+            <div >
+                <button className='language-bar'><span><FontAwesomeIcon className='globe' icon={faGlobe}></FontAwesomeIcon></span> 
+                ENGLISH <span><FontAwesomeIcon className='globe' icon={ faChevronDown}></FontAwesomeIcon></span></button>
+            </div>
 
             <div className='navigation'>
             <h3>NAVIGATION</h3>
@@ -35,10 +40,17 @@ const Footer = () => {
             </div>
             <div>
                 <h3>FOLLOW US</h3>
-                <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                <FontAwesomeIcon className='icons' icon={faFacebook}></FontAwesomeIcon>
+                <FontAwesomeIcon className='icons'icon={faLinkedin}></FontAwesomeIcon>
+                <FontAwesomeIcon className='icons'icon={faTwitter}></FontAwesomeIcon>
             </div>
+
+            </div>
+            <div >
+                <p className='copyright'>© 2022 Dramatic. All Rights Reserved. </p>
+            </div>
+            
+            
             
         </div>
       

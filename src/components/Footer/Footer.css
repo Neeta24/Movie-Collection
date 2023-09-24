@@ -6,9 +6,32 @@
     padding:96px 0 0 80px;
     display:flex;
     gap:100px;
-    
-
    
 }
+.copyright{
+  margin:auto;
+  background-color: #161214;
+  text-align: center;
+    color: white;
+    padding-bottom: 40px;
+  
+}
+.language-bar{
+    padding:10px;
+    margin-top: 20px;
+    background-color: #362F33;
+    color:white;
+    border:none;
+}
 
+.icons{
+    margin-left:14px;
+    width: 30px;
+height: 30px;
+
+
+}
+.globe{
+    margin:0 13px ;
+}
 

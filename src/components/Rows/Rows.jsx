@@ -4,8 +4,7 @@ import './Rows.css'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faHeart } from '@fortawesome/free-regular-svg-icons';
-import { faClover } from '@fortawesome/free-solid-svg-icons';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
+
 
 const Rows = ({item}) => {
     const{poster_path,release_date,vote_average,title,id} =item;

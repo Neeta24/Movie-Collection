@@ -25,7 +25,7 @@ const{genres,original_title,backdrop_path,overview,vote_average,vote_count,relea
               <p className='overview'>{overview}</p>
               
               <div>
-              <p>GENRES</p>
+              <p className='gen'>GENRES</p>
               <div className='genres'>
               <p><span>{genres[0]?.name}</span></p>
               <p><span>{genres[1]?.name}</span></p>

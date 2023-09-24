@@ -10,9 +10,7 @@ import { faPlay, faPlus } from '@fortawesome/free-solid-svg-icons';
 const RowsDetails = () => {
   const movieData = useLoaderData()
 console.log(movieData);
-const{genres,original_title,backdrop_path,overview,vote_average,vote_count,release_date,spoken_languages,poster_path
-
-}= movieData;
+const{genres,original_title,backdrop_path,overview,vote_average,vote_count,release_date,spoken_languages}= movieData;
 
  
   

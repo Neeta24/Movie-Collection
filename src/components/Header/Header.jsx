@@ -11,7 +11,9 @@ const Header = () => {
     return (
         <div className='header'>
            <div className='left-header'>
-           <div className='Header-image'></div>
+           <div className='Header-image'>
+            <img src="DRAMATIC.png" alt="" />
+           </div>
 
                <div className='header-links'>
                    <Link className='link' to ='./home'>Home</Link>

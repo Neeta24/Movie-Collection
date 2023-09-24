@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faHeart } from '@fortawesome/free-regular-svg-icons';
 
 
-const Rows = ({item}) => {
+
+const Rows = ({item }) => {
     const{poster_path,release_date,vote_average,title,id} =item;
 
     const linkstyle={
@@ -37,7 +38,7 @@ const Rows = ({item}) => {
              
              </div>
         </div>
-        
+       
         </Link> 
        
     )

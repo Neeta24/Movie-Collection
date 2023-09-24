@@ -1,4 +1,20 @@
+
+.details-top{
+    width: 100%;
+}
 .genres{
     display: flex;
     margin-top: -30px;
+}
+.rating{
+    color: #FFC907;
+
+}
+.audio{
+    display: block;
+    row-gap: 10px;
+}
+.audio-style{
+    color: #E43109;
+    
 }

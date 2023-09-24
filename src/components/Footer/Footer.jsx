@@ -46,8 +46,8 @@ const Footer = () => {
             </div>
 
             </div>
-            <div >
-                <p className='copyright'>© 2022 Dramatic. All Rights Reserved. </p>
+            <div className='copyright'>
+                <p >© 2022 Dramatic. All Rights Reserved. </p>
             </div>
             
             

@@ -6,9 +6,11 @@ import Rows from '../Rows/Rows';
 
 
 
+
 const Row = ({title, fetchURL}) => {
 
     const [movies,setMovies] = useState([]);
+   
     useEffect(()=>{
 axios.get(fetchURL).then((response)=>{
     setMovies(response.data.results)
@@ -22,15 +24,15 @@ axios.get(fetchURL).then((response)=>{
         <h2 className='title'>{title}</h2> 
        <div className='row-posters'>
           {movies.map((item)=>(
-            <Rows key={item.id} item={item} title={title}></Rows>
+            <Rows key={item.id} item={item} title={title} ></Rows>
             
             )
            
             )}
        </div>
-
+      
         </div>
-       
+      
 
       </div>
     

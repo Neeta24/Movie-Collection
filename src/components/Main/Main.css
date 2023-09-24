@@ -8,7 +8,7 @@
 
 .details{
    
-    height: 60vh;
+    height: 70vh;
     width:38%;
     text-align: left;
     color:white;
@@ -17,7 +17,7 @@
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7456232492997199) 42%, rgba(0,0,0,0) 100%);
    padding-right: 60%;
     padding-left: 2%;
-    padding-top: 40vh;
+    padding-top: 30vh;
 
 }
 

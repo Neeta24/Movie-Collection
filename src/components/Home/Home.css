@@ -1,0 +1,24 @@
+.button-details{
+    width: 106px;
+height: 40px;
+top: 1084px;
+left: 149px;
+border-radius: 30px;
+margin-right: 10px;
+border-width: 0;
+color: white;
+
+}
+.heading{
+    color: white;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+.red-color{
+    background: #E43109;
+
+}
+.ass-color{
+    background: #5C5C5C;
+
+}
